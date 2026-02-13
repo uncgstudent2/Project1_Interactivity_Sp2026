@@ -1,11 +1,11 @@
 .hoverBox:hover .subDiv{
 
-opacity:1;}
+opacity:1;
+}
 
-link rel=stylesheet" href="Starter.css
 
 .collage{
-    position: absolute ;
+    position: absolute;
 }
 
 .container{
@@ -15,5 +15,33 @@ link rel=stylesheet" href="Starter.css
 }
 
 button:hover{
-    color:blueviolet
+    color:blueviolet;
+}
+
+body{
+    background-image:url("Cat_Image_Web_Page.png");
+    background-size:100vw auto;
+    min-width:800px;
+}
+
+.collage{
+    position:absolute;
+}
+
+.show{
+    opacity:0;
+    position:absolute;
+    top:5vw;
+    left:5vw;
+}
+
+.hoverArea:hover .show{
+    opacity:1;
+}
+
+.hoverArea{
+    width:20vw;
+    height:10vw;
+    background-color: blue;
+    position:relative;
 }
