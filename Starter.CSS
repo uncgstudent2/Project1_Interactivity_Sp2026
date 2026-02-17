@@ -3,6 +3,7 @@
     justify-content:center;
     background-color: azure;
     position:relative;
+    margin:0;
 }
 
 
@@ -34,6 +35,12 @@ body{
 
 .collage{
     position:absolute;
+    rotate: 25deg;
+}
+
+.collage2{
+    position:absolute;
+    rotate:-20deg;
 }
 
 .show{
@@ -47,19 +54,20 @@ body{
     opacity:1;
 }
 
-.hoverArea{
+.hoverArea4{
+    width:
+    height:
+    position:relative;
+}
+
+.hoverArea3{
     width:20vw;
     height:10vw;
-    position:relative;
+    position:relative;left:5px; top:430px;
 }
 
 .hoverArea2{
     width:20vw;
     height:10vw;
-    position:relative;left:500px; bottom:30px;
-}
-
-.button1{
-    position:absolute;
-
+    position:relative;left:10px; top:430px;
 }
