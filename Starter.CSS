@@ -73,3 +73,7 @@ body{
     height:10vw;
     position:relative;left:10px; top:430px;
 }
+
+.display{
+    display:flex;
+}
