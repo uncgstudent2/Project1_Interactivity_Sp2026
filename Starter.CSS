@@ -1,3 +1,11 @@
+.page-header{
+    text-align:center;
+    justify-content:center;
+    background-color: azure;
+    position:relative;
+}
+
+
 .hoverBox:hover .subDiv{
 
 opacity:1;
@@ -42,6 +50,16 @@ body{
 .hoverArea{
     width:20vw;
     height:10vw;
-    background-color: blue;
     position:relative;
+}
+
+.hoverArea2{
+    width:20vw;
+    height:10vw;
+    position:relative;left:500px; bottom:30px;
+}
+
+.button1{
+    position:absolute;
+
 }
