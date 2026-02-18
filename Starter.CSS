@@ -57,12 +57,6 @@ body{
     opacity:1;
 }
 
-.hoverArea4{
-    width:
-    height:
-    position:relative;
-}
-
 .hoverArea3{
     width:20vw;
     height:10vw;
@@ -84,4 +78,10 @@ body{
   margin: 0;
   position: absolute;
   top: 5vw;
+}
+
+img.resize img{
+    position: absolute;
+    max-width: 
+    height:auto; 
 }
