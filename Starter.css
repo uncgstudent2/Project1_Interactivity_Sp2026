@@ -1,23 +1,27 @@
 .page-header{
-    text-align:center;
+    display: flex;
     justify-content:center;
-    background-color: azure;
+    align-items: center;
+    
     position:relative;
     width:100vw;
-    height:70px;
     margin:0;
-    border: 5px solid rgb(0, 0, 0);
+}
+    
+
+.title-box{
+   background-color: azure;
+   border: 5px solid rgb(0, 0, 0);
+   padding-left:5vw;
+   padding-right:5vw;
 }
 
+h1{
+    font-size:60px;
+}
 
 .hoverBox:hover .subDiv{
-
 opacity:1;
-}
-
-
-.collage{
-    position: absolute;
 }
 
 .container{
@@ -38,13 +42,16 @@ body{
 
 .collage{
     position:absolute;
+}
+
+.rotate-right{
     rotate: 25deg;
 }
 
-.collage2{
-    position:absolute;
+.rotate-left{
     rotate:-20deg;
 }
+
 
 .show{
     opacity:0;
@@ -57,16 +64,10 @@ body{
     opacity:1;
 }
 
-.hoverArea3{
+.hoverArea{
     width:20vw;
     height:10vw;
-    position:relative;left:5px; top:430px;
-}
-
-.hoverArea2{
-    width:20vw;
-    height:10vw;
-    position:relative;left:10px; top:430px;
+    position:relative;
 }
 
 .display{
@@ -77,11 +78,5 @@ body{
   border: 5px solid rgb(0, 0, 0);
   margin: 0;
   position: absolute;
-  top: 5vw;
-}
-
-img.resize img{
-    position: absolute;
-    max-width: 
-    height:auto; 
+  top: 10vw;
 }
